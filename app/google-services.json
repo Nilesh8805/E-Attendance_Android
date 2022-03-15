@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "742756417539",
+    "firebase_url": "https://ditms-attendance-default-rtdb.firebaseio.com",
+    "project_id": "ditms-attendance",
+    "storage_bucket": "ditms-attendance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742756417539:android:068357e60e5114217fce36",
+        "android_client_info": {
+          "package_name": "com.eattendances.ditms_attendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742756417539-j4i50815j9jd9ohumcfoinl6vmo7hhcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK60_cvEcc7eSEsPeRmv8U4wTaLFcGbkk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742756417539-j4i50815j9jd9ohumcfoinl6vmo7hhcc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

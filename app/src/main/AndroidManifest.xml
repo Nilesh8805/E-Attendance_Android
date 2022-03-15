@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eattendances.ditms_attendance">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET "></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DITMS_ATTENDANCE">
+        <activity android:name="com.eattendances.ditms_attendance.browse2"></activity>
+        <activity android:name="com.eattendances.ditms_attendance.browse1" />
+        <activity android:name="com.eattendances.ditms_attendance.monthview" />
+        <activity android:name="com.eattendances.ditms_attendance.finalyearpercent" />
+        <activity android:name="com.eattendances.ditms_attendance.staffsinglefinal" />
+        <activity android:name="com.eattendances.ditms_attendance.staffsingleday" />
+        <activity android:name="com.eattendances.ditms_attendance.delete_data" />
+        <activity android:name="com.eattendances.ditms_attendance.parentfinal" />
+        <activity android:name="com.eattendances.ditms_attendance.take_atandance_here" />
+        <activity android:name="com.eattendances.ditms_attendance.new_entry" />
+        <activity android:name="com.eattendances.ditms_attendance.admins" />
+        <activity android:name="com.eattendances.ditms_attendance.staff_store" />
+        <activity android:name="com.eattendances.ditms_attendance.parents_theme" />
+        <activity android:name="com.eattendances.ditms_attendance.staff_theme" />
+        <activity android:name="com.eattendances.ditms_attendance.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8585966944422416~7867969583"/>
+
+
+    </application>
+
+
+</manifest>

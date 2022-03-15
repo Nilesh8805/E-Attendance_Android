@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ic_launcher_background"
+    tools:context=".parents_theme">
+
+    <Button
+        android:id="@+id/yearinfodatapatents"
+        android:layout_width="292dp"
+        android:layout_height="46dp"
+        android:background="#E8AAAA"
+        android:onClick="yinfoparants"
+        android:text="Get Year Info"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#2196F3"
+        app:iconTint="#FF0000"
+        app:layout_constraintBottom_toTopOf="@+id/infooo"
+        app:layout_constraintEnd_toEndOf="@+id/infooo"
+        app:layout_constraintStart_toStartOf="@+id/infooo" />
+
+    <Button
+        android:id="@+id/brwsdate2"
+        android:layout_width="292dp"
+        android:layout_height="46dp"
+        android:background="#E8AAAA"
+        android:text="OR   Browse Date"
+        android:textColor="#FF0000"
+        app:backgroundTint="#9DED3F"
+        app:iconTint="#FF0000"
+        app:layout_constraintBottom_toTopOf="@+id/yearinfodatapatents"
+        app:layout_constraintEnd_toEndOf="@+id/yearinfodatapatents"
+        app:layout_constraintStart_toStartOf="@+id/yearinfodatapatents" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="50dp"
+        android:text="DITMS Parents Corner"
+        android:textColor="#00FF04"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/rollll"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="4dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="Roll No"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/parentclass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <AutoCompleteTextView
+        android:id="@+id/parentclass"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="4dp"
+        android:background="#FFFFFF"
+        android:hint="Enter Class"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/dateeee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/dateeee"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="40dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="Date MM/DD/YY    #Don't include Zero's"
+        android:inputType="number"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/brwsdate2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/infooo"
+        android:layout_width="292dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="62dp"
+        android:background="#E8AAAA"
+        android:text="Get Today's Info"
+        android:textColor="#FF0000"
+        app:backgroundTint="#FFEB3B"
+        app:iconTint="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="409dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-8585966944422416/9201302364"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
+</androidx.constraintlayout.widget.ConstraintLayout>
